@@ -1,3 +1,98 @@
-document.getElementById('resumeBtn').addEventListener('click',()=>console.log('Resume clicked'));
-document.getElementById('githubLink').addEventListener('click',()=>console.log('GitHub clicked'));
-document.getElementById('linkedinLink').addEventListener('click',()=>console.log('LinkedIn clicked'));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vardhan D | MBA Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<!-- Replace this with your GTM snippet later -->
+</head>
+<body>
+
+<header class="hero">
+<nav>
+<div class="logo">VARDHAN D</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero-content">
+<h1>Vardhan D</h1>
+<h2>MBA Student | Business Analytics | Marketing</h2>
+<p>I use analytics to solve business problems through Excel, SQL, Power BI, Python and Google Analytics.</p>
+
+<div class="buttons">
+<a id="resumeBtn" href="resume/Resume.pdf">Download Resume</a>
+<a id="projectBtn" href="#projects">View Projects</a>
+</div>
+</div>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p>I am pursuing an MBA with a specialization in Business Analytics and Marketing. Previously, I worked at TCS in dental design, quality assurance and client communication. My interests include analytics, marketing strategy, dashboards and digital measurement.</p>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="card">
+<h3>Tata Consultancy Services</h3>
+<p>Design Engineer</p>
+<ul>
+<li>Designed customized dental solutions.</li>
+<li>Worked with international clients.</li>
+<li>Performed quality assurance.</li>
+<li>Used Excel for reporting and operations.</li>
+</ul>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>EV Dashboard</h3><p>Excel & Power BI dashboard.</p></div>
+<div class="card"><h3>Machine Learning Research</h3><p>Prediction of tensile strength using Random Forest and regression models.</p></div>
+<div class="card"><h3>Google Analytics Lab</h3><p>Personal portfolio integrated with GA4, GTM and Looker Studio.</p></div>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<ul class="skills">
+<li>Excel</li><li>SQL</li><li>Power BI</li><li>Python</li>
+<li>Google Analytics 4</li><li>Google Tag Manager</li><li>Looker Studio</li>
+</ul>
+</section>
+
+<section id="certifications">
+<h2>Certifications</h2>
+<ul>
+<li>Business Analytics (Excel, Power Query, Power Pivot & Dashboards)</li>
+<li>SQL</li>
+<li>Python</li>
+<li>Google Analytics 4</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: your-email@example.com</p>
+<p>GitHub: <a id="githubLink" href="https://github.com/D-VARDHAN" target="_blank">github.com/D-VARDHAN</a></p>
+<p>LinkedIn: <a id="linkedinLink" href="#">Add your LinkedIn URL</a></p>
+</section>
+
+<footer>
+<p>© 2026 Vardhan D</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
